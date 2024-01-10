@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif&family=Signika+Negative:wght@300&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  *{
+    margin: 0;
+    font-family: "Bebas+Neue&family";
+    color: #333;
+  }
+
+  .navbar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .navbar  h1{
+    color: #f1356d;
+  }
+
+  .navbar .links{
+    margin-left: auto;
+  }
+  .navbar a{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+
+  .navbar a:hover{
+    color: #f1356d;
+  }
+  .content{
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+  }
+  .blog-preview{
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+  
+  }
+
+  .blog-preview:hover{
+    box-shadow:1px 3px 5px rgb(94, 93, 93);
+    transition: all 0.4s ease-in-out;
+  }
+  .blog-preview h2{
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 8px;
+  }
+  .blog-preview p{
+    font-size: 10px;
+    text-decoration:line-through;
+  }
